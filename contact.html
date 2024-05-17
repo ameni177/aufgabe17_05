@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <style>
+        body { background-color: lightgreen; }
+    </style>
+</head>
+<body>
+    <h1>Kontakt</h1>
+    <nav>
+        <form action="/navigate" method="post">
+            <input type="hidden" name="page" value="home">
+            <button type="submit">Home</button>
+        </form>
+        <form action="/navigate" method="post">
+            <input type="hidden" name="page" value="about">
+            <button type="submit">Über uns</button>
+        </form>
+        <form action="/navigate" method="post">
+            <input type="hidden" name="page" value="impressum">
+            <button type="submit">Impressum</button>
+        </form>
+        <form action="/navigate" method="post">
+            <input type="hidden" name="page" value="privacy">
+            <button type="submit">Datenschutz</button>
+        </form>
+    </nav>
+</body>
+</html>
